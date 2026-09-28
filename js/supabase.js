@@ -1,5 +1,5 @@
 // NÃO coloque a service_role key aqui.
-const SUPABASE_URL = "COLE_AQUI_A_URL_DO_SEU_PROJETO";
-const SUPABASE_PUBLISHABLE_KEY = "COLE_AQUI_A_CHAVE_PUBLICAVEL";
+const SUPABASE_URL = "https://gbnmwrbssqvuxyekofgy.supabase.co";
+const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_8VSzL4giDkBVlLXqCcONdA_wfHb3pET";
 const { createClient } = window.supabase;
-const db = createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+const db = createClient(https://gbnmwrbssqvuxyekofgy.supabase.co, sb_publishable_8VSzL4giDkBVlLXqCcONdA_wfHb3pET);
