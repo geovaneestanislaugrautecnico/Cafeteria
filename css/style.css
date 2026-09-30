@@ -1,1 +1,223 @@
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#10140f;color:#f4f1df}a{text-decoration:none;color:inherit}.top{background:#1a2118;border-bottom:2px solid #d5b95c;position:sticky;top:0;z-index:10}.nav{max-width:1100px;margin:auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;letter-spacing:2px;color:#e4cf73}.nav a{margin-left:15px}.hero{min-height:390px;display:grid;place-items:center;text-align:center;padding:50px 20px;background:radial-gradient(circle,#33412b,#10140f 65%)}.hero h1{font-size:clamp(42px,8vw,86px);margin:0;color:#e4cf73;text-transform:uppercase}.hero p{max-width:680px;margin:20px auto;font-size:18px}.container{max-width:1100px;margin:auto;padding:40px 20px}.section-title{font-size:32px;color:#e4cf73}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}.card{background:#1b2119;border:1px solid #38432f;border-radius:10px;padding:20px}.card h3{color:#e4cf73}.price{font-size:22px;font-weight:bold}.btn{display:inline-block;border:0;border-radius:6px;padding:11px 16px;background:#d5b95c;color:#15170f;font-weight:bold;cursor:pointer}.btn.secondary{background:#3b4635;color:#fff}.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:25px}.filters input,.filters select,.form input,.form textarea,.form select{width:100%;padding:12px;border-radius:6px;border:1px solid #485541;background:#11160f;color:#fff}.filters input{max-width:450px}.form{display:grid;gap:14px;max-width:650px}.cart{position:fixed;right:20px;bottom:20px;background:#d5b95c;color:#15170f;padding:14px 18px;border-radius:50px;font-weight:bold}.table{width:100%;border-collapse:collapse}.table th,.table td{padding:12px;border-bottom:1px solid #37402f;text-align:left}.notice{padding:15px;background:#242d20;border-left:4px solid #d5b95c;margin:20px 0}.empty{padding:30px;text-align:center;color:#aaa}.footer{padding:35px 20px;text-align:center;color:#8e9488;border-top:1px solid #30382b;margin-top:50px}
+/* ==============================
+   RESET E CONFIGURAÇÕES GERAIS
+   ============================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #10140f;
+    color: #f4f1df;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ==============================
+   NAVEGAÇÃO
+   ============================== */
+
+.top {
+    background: #1a2118;
+    border-bottom: 2px solid #d5b95c;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav {
+    max-width: 1100px;
+    margin: auto;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #e4cf73;
+}
+
+.nav a {
+    margin-left: 15px;
+}
+
+/* ==============================
+   HERO
+   ============================== */
+
+.hero {
+    min-height: 390px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background: radial-gradient(circle, #33412b, #10140f 65%);
+}
+
+.hero h1 {
+    font-size: clamp(42px, 8vw, 86px);
+    margin: 0;
+    color: #e4cf73;
+    text-transform: uppercase;
+}
+
+.hero p {
+    max-width: 680px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+/* ==============================
+   CONTEÚDO
+   ============================== */
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #e4cf73;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 18px;
+}
+
+.card {
+    background: #1b2119;
+    border: 1px solid #38432f;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card h3 {
+    color: #e4cf73;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ==============================
+   BOTÕES
+   ============================== */
+
+.btn {
+    display: inline-block;
+    border: 0;
+    border-radius: 6px;
+    padding: 11px 16px;
+    background: #d5b95c;
+    color: #15170f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn.secondary {
+    background: #3b4635;
+    color: #fff;
+}
+
+/* ==============================
+   FILTROS E FORMULÁRIOS
+   ============================== */
+
+.filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.filters input,
+.filters select,
+.form input,
+.form textarea,
+.form select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #485541;
+    background: #11160f;
+    color: #fff;
+}
+
+.filters input {
+    max-width: 450px;
+}
+
+.form {
+    display: grid;
+    gap: 14px;
+    max-width: 650px;
+}
+
+/* ==============================
+   CARRINHO E TABELAS
+   ============================== */
+
+.cart {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #d5b95c;
+    color: #15170f;
+    padding: 14px 18px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    border-bottom: 1px solid #37402f;
+    text-align: left;
+}
+
+/* ==============================
+   AVISOS E ESTADOS VAZIOS
+   ============================== */
+
+.notice {
+    padding: 15px;
+    background: #242d20;
+    border-left: 4px solid #d5b95c;
+    margin: 20px 0;
+}
+
+.empty {
+    padding: 30px;
+    text-align: center;
+    color: #aaa;
+}
+
+/* ==============================
+   RODAPÉ
+   ============================== */
+
+.footer {
+    padding: 35px 20px;
+    text-align: center;
+    color: #8e9488;
+    border-top: 1px solid #30382b;
+    margin-top: 50px;
+}
